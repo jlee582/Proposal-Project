@@ -31,12 +31,3 @@ Categorical variables are converted into numerical using one-hot encoding. The n
 The logistic regression model is used to investigate whether webpage characteristics can predict the presence of copyright indicators. The model is trained and evaluated using separate training and testing datasets.
 Regression coefficients are examined to find associations between webpage characteristics and copyright indicator presence. 
 
-# Model Evaluation
-The logistic regression models is evaluated using accuracy, precision, recall, F1-score and ROC-AUC. 
-The model produced 57.17% Accuracy, 57.70% Precision, 92.69% Recall, 0.711 F1 score and .554 ROC-AUC. 
-The model achieved high recall for webpages containing copyright indicators but performed poorly when identifying webpages without them. Furthermore, the ROC-AUC score indicates limited ability to distinguish between the two classes. 
-These findings suggest that basic webpage characteristics provide limited predictive information about the presence of copyright indicators in the data sample. 
-
-# Ethical Considerations
-This project examines copyright transparency as an issue related to data ethics and accountability. All analyses are based on publicly accessible Common Crawl data. The project does not attempt to establish copyright ownership or determine whether specific uses of collected content are legally authorized.
-The findings are intended to contribute to discussions surrounding transparency, documentation, and the challenges of identifying potentially copyrighted materials in larger scale web data.
