@@ -7,7 +7,9 @@ Using Python, the study combines exploratory data analysis, data visualization, 
 
 # Research Questions
 How frequently do explicit copyright indicators appear within Common Crawl webpages?
+
 How does copyright indicator prevalence vary across crawl releases and domain extensions?
+
 To what extent can webpage characteristics predict the presence of copyright indicators?
 
 # Data Source
