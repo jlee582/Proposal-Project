@@ -26,7 +26,7 @@ has_copyright_indicator is a binary variable determining whether as least one co
 Exploratory data analysis is conducted to identify patterns in copyright indicator prevalence. The analysis includes examining the number of indicators on each webpage, calculating the frequency and percentage of webpages containing each indicator, comparing indicator prevalence across domain extensions, and examining the relationship between webpage length and copyright indicator presence. 
 Tables and visualizations are also created to better communicate these findings.
 
-For the predictive modeling, the feature variables contain word count, character count, line count, domain extension, length of url, and the crawl id. the target variable is has_copyright_indicator. 
+For the predictive modeling, the feature variables contain word count, character count, line count, domain extension, length of url, and the crawl id. The target variable is has_copyright_indicator. 
 Categorical variables are converted into numerical using one-hot encoding. The numerical features are standardized for fitting the logistic regression model. 
 The logistic regression model is used to investigate whether webpage characteristics can predict the presence of copyright indicators. The model is trained and evaluated using separate training and testing datasets.
 Regression coefficients are examined to find associations between webpage characteristics and copyright indicator presence. 
